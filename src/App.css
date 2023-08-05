@@ -1,0 +1,24 @@
+.imageStyle{
+  max-width: 35vw;
+  max-height: 50vh;
+  display: block;
+}
+
+.image-space{
+  height: 50vh;
+}
+@media only screen and (max-width: 768px) {
+  .imageStyle{  
+    max-width: 80vw;
+    max-height:unset;
+  }
+  .image-space{
+    height: 25vh;
+  }
+}
+.row{
+  min-height: calc(100vh - 56px);
+}
+.App{
+  overflow-x: hidden;
+}
