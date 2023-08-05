@@ -21,7 +21,7 @@ function App() {
         fetch("https://api.remove.bg/v1.0/removebg", {
             method: "POST",
             headers: {
-                "X-Api-Key": process.env.API_KEY, // my api key is stored in the .env file
+                "X-Api-Key": "insert your own remove.bg API key here",
             },
             body: formData,
         })
