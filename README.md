@@ -1,4 +1,4 @@
-Add your remove.bg API key in in App.js for the application to work.
+Add your remove.bg API key in in Main.js for the application to work.
 
 # Getting Started with Create React App
 

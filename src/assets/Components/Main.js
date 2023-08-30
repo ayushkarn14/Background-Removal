@@ -20,7 +20,7 @@ function Main(props) {
         fetch("https://api.remove.bg/v1.0/removebg", {
             method: "POST",
             headers: {
-                "X-Api-Key": "<insert your remove.bg API key here>",
+                "X-Api-Key": "9k1CK1zKxPPcCom2dxGhDu4i",
             },
             body: formData,
         })
